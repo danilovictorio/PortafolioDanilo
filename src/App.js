@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Frontend</h1> 
+      <MyButton />
     </div>
   );
+  function MyButton() {
+    const [count, setCount] = useState(0);
+  }
+
+  function handleClick() {
+    alert('Boton clicado este numero de veces: ' + count);
+  }
+
+  function MyButton() {
+    return (
+      <button className="botonUnico" onClick={handleClick} >I'm a button</button>
+    );
+  }
+  
 }
 
 export default App;
