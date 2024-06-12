@@ -1,24 +1,34 @@
 import { useState } from 'react';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Sidebar from './components/sidebar/Sidebar';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Frontend</h1> 
-      <MyButton />
-    </div>
+    <>
+    <Sidebar />
+    
+
+
+    
+    </>
+
   );
+
   function MyButton() {
     const [count, setCount] = useState(0);
-  }
-
-  function handleClick() {
-    alert('Boton clicado este numero de veces: ' + count);
-  }
-
-  function MyButton() {
+  
+    function handleClick() {
+      setCount(count + 1);
+    }
+  
     return (
-      <button className="botonUnico" onClick={handleClick} >I'm a button</button>
+      <button onClick={handleClick}>
+        Clicked {count} times
+      </button>
+   
     );
   }
   
