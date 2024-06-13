@@ -30,6 +30,19 @@
   --border-radius: 20px;
 
 }
+/* ================Responsive Typography================ */
+@media screen and (max-width: 1024px){
+  :root{
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+  
+}
+
 
 *{
   margin: 0;
@@ -99,7 +112,7 @@ img{
 }
 .section-title::before{
   content: '';
-  background: url(../assets/dots-bg.svg);
+  background: url(../src/assets/dots-bg.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;

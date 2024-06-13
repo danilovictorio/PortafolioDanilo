@@ -3,8 +3,8 @@ import './portfolio.css'
 
 const Portfolio = () => {
   return (
-    <div>portfolio</div>
+    <div>Portfolio</div>
   )
 }
 
-export default portfolio
+export default Portfolio
