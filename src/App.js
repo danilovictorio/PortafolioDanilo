@@ -4,9 +4,10 @@ import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 
-import Sidebar from './components/sidebar/Sidebar';
+import Sidebar from './components/sidebar/Sidebar.jsx';
 
 import './App.css';
+import Contact from './components/contact/Contact.jsx';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Services />
       <Resume />
       <Portfolio />
+      <Contact />
 
     </main>
     </>

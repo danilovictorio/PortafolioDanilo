@@ -85,9 +85,10 @@ button{
   border: none;
 }
 img{
-  max-width: 100%;
+  max-width: 45%; /* Aumenta este valor para hacer la imagen más grande */
   height: auto;
   vertical-align: middle;
+  border-radius: 20%;
 }
 .container{
   max-width: 1080px;
@@ -132,6 +133,9 @@ img{
   background-color: var(--first-color);
   font-weight: var(--font-bold);
 }
+.btn:hover{
+  animation: button-push 0.3s linear 1;
+}
 
 @keyframes button-push{
   50%{
@@ -143,9 +147,7 @@ img{
   }
 }
 
-btn:hover{
-  animation: button-push 0.3s linear 1;
-}
+
 
 
 
