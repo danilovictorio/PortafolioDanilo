@@ -1,9 +1,55 @@
 import React from 'react'
 import './about.css'
-
+import IMAGE from "../../assets/fotoDanilo.jpg"
 const About = () => {
   return (
-    <div>About</div>
+    <section className="about container section" id='about'>
+      <h2 className="section__title">Sobre Mi</h2>
+
+      <div className="about__container grid">
+        <img src={IMAGE} alt="" className="about__img" />
+
+        <div className="about__data grid">
+          <div className="about__info">
+            <p className="about__description">
+              Hola soc en danilo, tinc 20 anys y m'agrada molt treballar y programar.
+              lore
+            </p>
+            <a href="" className="btn">Descarregar CV</a>
+          </div>
+
+          <div className="about__skills grid">
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Dessarollo</h3>
+                <span className="skills__number ">90%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage development "></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Diseño Imagen</h3>
+                <span className="skills__number ">60%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage photography"></span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">UI/UX diseño</h3>
+                <span className="skills__number ">80%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage ui__design"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 

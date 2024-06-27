@@ -4,9 +4,9 @@
 :root {
   /* ================Colors=============== */
   --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  --title-color: hsl(246, 27%, 69%);
+  --text-color: hsl(244, 28%, 69%);
+  --body-color: hsl(254, 80%, 10%);
   --container-color: #fff;
 /* ================Font and Typography================ */
   --body-font: 'Rubik', sans-serif;
@@ -85,10 +85,10 @@ button{
   border: none;
 }
 img{
-  max-width: 45%; /* Aumenta este valor para hacer la imagen más grande */
+  max-width: 40%; /* Aumenta este valor para hacer la imagen más grande */
   height: auto;
   vertical-align: middle;
-  border-radius: 20%;
+  border-radius: 25%;
 }
 .container{
   max-width: 1080px;
