@@ -8,23 +8,23 @@ const data = [
   {
     id: 1,
     image: Image1,
-    title: "UI/UX design",
+    title: "Diseño UI/UX ",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "UI: Diseño interfaces atractivas y funcionales, optimizando usabilidad con colores, tipografía e iconografía. UX: Investigo usuarios para crear experiencias intuitivas y eficientes, garantizando navegación fluida.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Web Development",
+    title: "Desarrollo Web",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Diseño y programo sitios web responsive y optimizados utilizando tecnologías como HTML, CSS, JavaScript y frameworks modernos. Mi objetivo es crear experiencias web robustas, accesibles y alineadas con las mejores prácticas de la industria.",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Diseño Imagen",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Creo elementos gráficos impactantes que refuerzan la identidad de la marca, incluyendo logotipos, ilustraciones y materiales de marketing.",
   },
 ];
 
